@@ -11,7 +11,7 @@ function coletaDados() {
 }
 
 function continuarOuParar() {
-    confirm("Continuar com pesquisa:")
+    var pesquisa = confirm("Continuar com pesquisa:")
 
     if (pesquisa == true) {
         qtdParticipantes = qtdParticipantes + 1
@@ -22,5 +22,5 @@ function continuarOuParar() {
     }
 }
 
-var pesquisa = continuarOuParar();
+continuarOuParar();
 
