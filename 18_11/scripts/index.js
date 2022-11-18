@@ -34,7 +34,6 @@ function mediaDosValores(valor1, valor2, valor3) {
     var valorInt2 = parseFloat(valor2)
     var valorInt3 = parseFloat(valor3)
     var media = ((valorInt1 + valorInt2 + valorInt3) / 3)
-    console.log("media", media)
     return console.log(`A média dos preços dos carros são ${media}`)
 }
 
