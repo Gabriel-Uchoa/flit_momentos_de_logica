@@ -49,6 +49,6 @@ var modeloCar3 = prompt("Informe o modelo carro 3: ")
 var anoCar3 = prompt("Informe o ano carro 3: ")
 var valorCar3 = prompt("Informe o valor carro 3: ")
 
-carroMaisCaro(valorCar1, valorCar2, valorCar3, modeloCar1, modeloCar2, modeloCar2)
-carroMaisBarato(valorCar1, valorCar2, valorCar3, modeloCar1, modeloCar2, modeloCar2)
+carroMaisCaro(valorCar1, valorCar2, valorCar3, modeloCar1, modeloCar2, modeloCar3)
+carroMaisBarato(valorCar1, valorCar2, valorCar3, modeloCar1, modeloCar2, modeloCar3)
 mediaDosValores(valorCar1, valorCar2, valorCar3)
